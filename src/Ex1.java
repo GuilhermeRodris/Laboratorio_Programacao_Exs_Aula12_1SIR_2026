@@ -20,8 +20,7 @@ public class Ex1 {
     public static void divisor (int x){
         for(int i = 1; i <= x; i++){
             if (x%i == 0){
-                System.out.println( i + " é divisor inteiro positivo de " + x);
-                System.out.println( (i * -1) + " é divisor inteiro negativo de " + x);
+                System.out.println( i + " é divisor inteiro de " + x);
             }
         }
     }
